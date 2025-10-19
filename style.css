@@ -137,7 +137,7 @@ nav a:hover {
 
 .tech-icons i {
   font-size: 2.2rem;
-  margin-right: 15px;
+  margin-right: 10px;
   transition: transform 0.2s ease, opacity 0.3s ease;
   cursor: default;
   animation: bounceIn 1.5s ease forwards;
