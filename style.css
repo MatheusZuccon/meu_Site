@@ -68,8 +68,8 @@ nav a:hover {
 .texto h2 {
   font-size: 2.5rem;
   margin-bottom: 0px;
-   opacity: 0; /* Começa totalmente transparente */
-  animation: fadeIn 1.5s ease-in forwards; /* Aplica a animação */
+  opacity: 0; 
+  animation: fadeIn 1.5s ease-in forwards; 
 }
 
 
@@ -77,8 +77,8 @@ nav a:hover {
   font-size: 1.2rem;
   color: #ccc;
   text-align: left;
-   opacity: 0; /* Começa totalmente transparente */
-  animation: fadeIn 1.5s ease-in forwards; /* Aplica a animação */
+   opacity: 0; 
+  animation: fadeIn 1.5s ease-in forwards; 
 }
 
 
@@ -97,8 +97,13 @@ nav a:hover {
   border: 3px solid #0a66c2;
   box-shadow: 0 0 15px rgba(10, 102, 194, 0.4);
   transition: transform 0.3s ease;
-  opacity: 0; /* Começa totalmente transparente */
-  animation: fadeIn 1.5s ease-in forwards; /* Aplica a animação */
+  opacity: 0; 
+  animation: fadeIn 1.5s ease-in forwards; 
+}
+
+.foto-direita:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .botao-download {
@@ -110,9 +115,14 @@ nav a:hover {
   border-radius: 6px;
   text-decoration: none;
   transition: transform 0.3s ease;
-  opacity: 0; /* Começa totalmente transparente */
-  animation: fadeIn 1.5s ease-in forwards; /* Aplica a animação */
+  opacity: 0; 
+  animation: fadeIn 1.5s ease-in forwards; 
+}
 
+.botao-download:hover {
+  transform: scale(1.08);
+  background-color: #0056b3;
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
 }
 
 @keyframes bounceIn {
@@ -142,29 +152,28 @@ nav a:hover {
 .tech-icons i:nth-child(6) { animation-delay: 0.6s; }
 
 
-/* Cores individuais */
 .fa-php {
-  color: #787cb5; /* Roxo do PHP */
+  color: #787cb5;
 }
 
 .fa-js {
-  color: #f7df1e; /* Amarelo JS */
+  color: #f7df1e; 
 }
 
 .fa-html5 {
-  color: #e34f26; /* Laranja HTML */
+  color: #e34f26; 
 }
 
 .fa-css3-alt {
-  color: #264de4; /* Azul CSS */
+  color: #264de4; 
 }
 
 .fa-database {
-  color: #00618a; /* Azul MySQL */
+  color: #00618a;
 }
 
 .fa-bootstrap {
-  color: #7952b3; /* Roxo Bootstrap */
+  color: #7952b3; 
 }
 
 /* Efeito ao passar o mouse */
@@ -180,15 +189,11 @@ nav a:hover {
   to { opacity: 1; }
 }
 
-
-
-
-
 .section h2 {
   font-size: 2rem;
   margin-bottom: 20px;
    text-align: left;
-  color: #f2f2f2; /* branco */
+  color: #f2f2f2; 
 }
 
 /* ====== PROJETOS ====== */
