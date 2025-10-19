@@ -67,7 +67,7 @@ nav a:hover {
 
 .texto h2 {
   font-size: 2.5rem;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
    opacity: 0; /* Começa totalmente transparente */
   animation: fadeIn 1.5s ease-in forwards; /* Aplica a animação */
 }
@@ -112,6 +112,67 @@ nav a:hover {
   transition: transform 0.3s ease;
   opacity: 0; /* Começa totalmente transparente */
   animation: fadeIn 1.5s ease-in forwards; /* Aplica a animação */
+
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0.5); opacity: 0; }
+  60% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+.tech-icons {
+  margin-top: 30px;
+}
+
+.tech-icons i {
+  font-size: 2.2rem;
+  margin-right: 30px;
+  transition: transform 0.2s ease, opacity 0.3s ease;
+  cursor: default;
+  animation: bounceIn 1.5s ease forwards;
+}
+
+/* Pequeno atraso para cada ícone (efeito em sequência) */
+.tech-icons i:nth-child(1) { animation-delay: 0.1s; }
+.tech-icons i:nth-child(2) { animation-delay: 0.2s; }
+.tech-icons i:nth-child(3) { animation-delay: 0.3s; }
+.tech-icons i:nth-child(4) { animation-delay: 0.4s; }
+.tech-icons i:nth-child(5) { animation-delay: 0.5s; }
+.tech-icons i:nth-child(6) { animation-delay: 0.6s; }
+
+
+/* Cores individuais */
+.fa-php {
+  color: #787cb5; /* Roxo do PHP */
+}
+
+.fa-js {
+  color: #f7df1e; /* Amarelo JS */
+}
+
+.fa-html5 {
+  color: #e34f26; /* Laranja HTML */
+}
+
+.fa-css3-alt {
+  color: #264de4; /* Azul CSS */
+}
+
+.fa-database {
+  color: #00618a; /* Azul MySQL */
+}
+
+.fa-bootstrap {
+  color: #7952b3; /* Roxo Bootstrap */
+}
+
+/* Efeito ao passar o mouse */
+.tech-icons i:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+    animation: slowSpin 2s linear infinite;
+
 }
 
 @keyframes fadeIn {
