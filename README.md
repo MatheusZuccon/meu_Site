@@ -1,11 +1,11 @@
-# 🙂 Meu Portfolio 
+## 🙂 Meu Portfolio 
 URL: https://matheuszuccon.github.io/meu_Site/
 ## ⚙️ Tecnologias Utilizadas
 
 | 📄 HTML           
 | 📄 CSS            
 
-<img width="1898" height="903" alt="image" src="https://github.com/user-attachments/assets/093bbd3d-ca4d-4e0b-be55-c097970d23b8" />
+<img width="1892" height="914" alt="image" src="https://github.com/user-attachments/assets/ff406b44-ca25-4906-803a-be6142bb8340" />
 
 ## 🛠️ Como Rodar Localmente
 
