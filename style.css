@@ -204,7 +204,6 @@ nav a:hover {
 
 /* ====== PROJETOS ====== */
 #projetos {
-  margin-top: 50px;
   padding: 150px 10%;
   background: #0d0d0d;
 }
@@ -300,6 +299,7 @@ nav a:hover {
 @media (max-width: 768px) {
   header {
     flex-direction: column;
+    margin-bottom: 0; 
   }
 
   nav {
@@ -307,15 +307,18 @@ nav a:hover {
   }
 
   .section.intro {
-    flex-direction: column-reverse; /* foto embaixo no mobile */
+    flex-direction: column-reverse;
     text-align: center;
     gap: 40px;
-    padding: 60px 5%;
+    padding: 20px 5% 50px 5%; 
+    margin-top: 0; 
   }
 
-    .foto-direita {
+  .foto-direita {
     width: 180px;
     height: 180px;
-    margin-top: 30px;
+    margin-top: 15px; 
   }
 }
+
+
