@@ -17,11 +17,23 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10%;
+  padding: 10px 10%;
   background: #111;
   position: sticky;
   z-index: 1000; 
   top: 0;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; 
+  gap: 10px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
 }
 
 header h1 {
