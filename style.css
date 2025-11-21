@@ -163,11 +163,6 @@ nav a:hover {
 .tech-icons i:nth-child(5) { animation-delay: 0.5s; }
 .tech-icons i:nth-child(6) { animation-delay: 0.6s; }
 
-
-.fa-php {
-  color: #787cb5;
-}
-
 .fa-js {
   color: #f7df1e; 
 }
